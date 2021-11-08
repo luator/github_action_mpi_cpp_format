@@ -3,7 +3,7 @@ FROM alpine
 
 MAINTAINER Felix Widmaier <felix.widmaier@tuebingen.mpg.de>
 
-RUN apk --no-cache add build-base cmake git python3 python3-dev py3-pip py3-wheel
+RUN apk --no-cache add bash build-base cmake git python3 python3-dev py3-pip py3-wheel
 RUN pip3 install --no-cache-dir -U colcon-common-extensions
 
 RUN mkdir /ws
