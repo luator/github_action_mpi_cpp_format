@@ -1,0 +1,6 @@
+name: "mpi_cpp_format check"
+description: "Check if the formatting of C++ code is compliant with `mpi_cpp_format` of `mpi_cmake_modules`."
+author: "Felix Widmaier (@luator)"
+runs:
+    using: "docker"
+    image: "Dockerfile"
