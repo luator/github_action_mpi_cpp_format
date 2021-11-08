@@ -10,5 +10,5 @@ if [[ ${status_output} ]]; then
     exit 1
 else
     echo "No files modified by mpi_cpp_format."
-    echo 0
+    exit 0
 fi

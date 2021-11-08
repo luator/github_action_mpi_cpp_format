@@ -11,6 +11,8 @@ this resulted in any change (in which case the check fails).
 
 Example workflow checking for "FIXME" in pull requests.
 
+    name: Formatting
+
     on: pull_request
 
     jobs:
